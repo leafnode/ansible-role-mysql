@@ -1,7 +1,7 @@
 ---
 galaxy_info:
   role_name: mysql
-  author: iroquoisorg
+  author: leafnode
   description: role for mysql
   license: BSD
   min_ansible_version: 2.5.4 # tested on this version, might work on older versions
@@ -9,6 +9,7 @@ galaxy_info:
   - name: Ubuntu
     versions:
     - 16.04
+    - 20.04
   galaxy_tags: []
 
 dependencies: []

@@ -1,6 +1,6 @@
 # mysql
 
-[![Build Status](https://travis-ci.com/iroquoisorg/ansible-role-mysql.svg?branch=master)](https://travis-ci.com/iroquoisorg/ansible-role-memcached)
+[![Build Status](https://travis-ci.com/leafnode/ansible-role-mysql.svg?branch=master)](https://travis-ci.com/leafnode/ansible-role-leafnode)
 
 Ansible role for mysql
 
@@ -8,7 +8,7 @@ This role was prepared and tested for Ubuntu 16.04.
 
 # Installation
 
-`$ ansible-galaxy install iroquoisorg.mysql`
+`$ ansible-galaxy install leafnode.mysql`
 
 # Default settings
 
