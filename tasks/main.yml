@@ -6,8 +6,8 @@
     state: present
   with_items:
    - "mysql-server-{{ mysql_version }}"
-   - python-mysqldb
-   - python-selinux
+   - python3-mysqldb
+   - python3-selinux
 
 - name: Create Mysql configuration file
   template:
