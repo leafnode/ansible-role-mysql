@@ -19,7 +19,7 @@ nice            = 0
 user            = mysql
 pid-file        = /var/run/mysqld/mysqld.pid
 socket          = /var/run/mysqld/mysqld.sock
-port            = {{ mysql_port }}
+port            = {{ mysql_port }}  
 basedir         = /usr
 datadir         = /var/lib/mysql
 tmpdir          = /tmp
@@ -37,7 +37,7 @@ bind-address            = {{ address }}
 #
 # * Fine Tuning
 #
-{% if ansible_distribution == "Ubuntu" and ansible_distribution_version | version('16.04', '<') %}
+{% if ansible_distribution == "Ubuntu" and ansible_distribution_version is version('16.04', '<') %}
 key_buffer              = 16M
 # This replaces the startup script and checks MyISAM tables if needed
 # the first time they are touched
